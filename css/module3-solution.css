@@ -3,4 +3,51 @@ background-color:green;
 border-radius:0;
 border:0;
 text-shadow: 1px 1px 1px #222;
+
+}
+h1{
+padding-top:80px;
+padding-bottom:40px;
+}
+
+@media screen and (max-width: 480px) {
+  
+}
+
+
+
+@media(min-width:481px) and (max-width:768px){
+
+.navbar-toggler{
+	
+	display:none;
+}
+
+
+}
+
+@media(min-width:769px) and (max-width:1024px){
+.navbar-toggler{
+	
+	display:none;
+}
+
+}
+
+
+@media(min-width:1025px) and (max-width:1200px){
+.navbar-toggler{
+	
+	display:none;
+}
+
+}
+
+
+@media screen and (min-width:1201px){
+.navbar-toggler{
+	
+	display:none;
+}
+
 }
