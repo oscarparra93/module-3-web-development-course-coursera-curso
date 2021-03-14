@@ -6,34 +6,36 @@ text-shadow: 1px 1px 1px #222;
 
 }
 h1{
-padding-top:80px;
+
 padding-bottom:40px;
 }
+.back-to-top-link{
+display:none;
+}
+
+
+
+.container .dropdown-menu {
+    position: static;
+    float: none;
+}
+
 
 @media screen and (max-width: 480px) {
-  
+  .back-to-top-link{
+display:inline;
+}
+
 }
 
 
 
 @media(min-width:481px) and (max-width:768px){
-
-
-	.col-md-6{
-float:left;
-width:44%;
-margin-left:3%;
-margin-right:3%;
-margin-top:6%
+.navbar-toggler{
+	
+	display:none;
 }
 
-#Sushi{
-width:100%
-}
-
-}
-
-@media(min-width:769px) and (max-width:1024px){
 
 .col-md-6{
 float:left;
@@ -42,21 +44,32 @@ margin-left:3%;
 margin-right:3%;
 margin-top:6%
 }
-#Sushi{
+
+#wider{
+width:100%
+}
+
+}
+
+@media(min-width:769px) and (max-width:1024px){
+.navbar-toggler{
+	
+	display:none;
+}
+
+.col-md-6{
+float:left;
+width:44%;
+margin-left:3%;
+margin-right:3%;
+margin-top:6%
+}
+#wider{
 width:100%
 }
 
 	
 }
-
-
-
-
-
-
-
-
-
 
 
 
